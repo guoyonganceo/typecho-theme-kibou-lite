@@ -47,7 +47,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
     <?php $this->header(); ?>
   </head>
 
-  <body id="kibou-lite">
+  <body id="kibou-lite" class="<?php $this->options->themeSelect(); ?>">
 
     <!--[if lt IE 10]>
       <div class="browsehappy" role="dialog"><?php _e('当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>'); ?>.</div>
